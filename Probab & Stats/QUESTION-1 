@@ -1,3 +1,5 @@
+ML interview question : Explain proportional sampling with a toy example and write python code for the same toy example ?
+
 Proportional sampling is a method where samples are drawn based on their proportional representation in the dataset. It ensures that categories with higher occurrences get proportionally more samples compared to less frequent categories.
 
 Imagine a company receives customer complaints in different categories. To ensure fair representation, they want to randomly sample complaints while maintaining the original proportions of each issue type.
