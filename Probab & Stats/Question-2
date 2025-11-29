@@ -1,0 +1,28 @@
+ What is difference between correlation and covariance?
+
+Correlation and covariance are both statistical measures used to describe the relationship between two variables, but they differ in several key aspects:
+
+Covariance:
+- cov(X,Y) = Expectation[ (X - mean_x)(Y - mean_y) ] 
+- Measures how two variables change together. 
+- Indicates the direction of the linear relationship between variables
+- Values range from -∞ to +∞
+- Affected by the scale of the variables
+- Difficult to interpret the strength of the relationship
+- Not standardized
+- Used in more advanced statistical analyses
+- Helpful in understanding the direction of the relationship
+
+Correlation:
+- corr(X,Y) = cov(X,Y) / (σ_X*σ_Y), Where σ_X and σ_Y are the standard deviations of X and Y respectively.
+- Measures both the strength and direction of the linear relationship. 
+- Provides a standardized measure of the relationship
+- Values range from -1 to +1
+- Not affected by changes in scale
+- Easier to interpret, with -1 indicating perfect negative correlation, 0 indicating no correlation, and +1 indicating perfect positive correlation
+- Standardized version of covariance
+- More commonly used in practice
+- Easier to compare relationships between different pairs of variables
+
+
+In summary, while both measure the relationship between variables, correlation provides a standardized, easily interpretable measure of both strength and direction, making it more widely used in practical applications.
